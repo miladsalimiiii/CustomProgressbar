@@ -8,25 +8,22 @@
 
 
     <FrameLayout
-        android:id="@+id/aaa"
+        android:id="@+id/frameLayout_main_frameLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-
-        >
+        android:layout_centerInParent="true">
     <com.milad.customprogressbar.SolidCircularProgressbar
         android:id="@+id/progressbar_main_solid"
         android:layout_width="100dp"
         android:layout_height="100dp"
         app:color="@color/colorAccent"
-        app:timeInterval="20000"
-        android:layout_centerInParent="true"/>
+        app:timeInterval="30000"/>
     </FrameLayout>
     <TextView
         android:id="@+id/textView_main_fillStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/aaa"
+        android:layout_below="@+id/frameLayout_main_frameLayout"
         android:text="Fill Style"
         android:gravity="center"
         android:textSize="50dp"
